@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
-import { View, StyleSheet } from "react-native";
 import * as ImagePicker from "expo-image-picker";
 import logger from "../utility/logger";
+import { TouchableWithoutFeedback } from "react-native-gesture-handler";
 
 function ProfileImagePicker({ children, onChangeImage }) {
   const requestPermission = async () => {
@@ -33,9 +33,5 @@ function ProfileImagePicker({ children, onChangeImage }) {
     </TouchableWithoutFeedback>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {},
-});
 
 export default ProfileImagePicker;

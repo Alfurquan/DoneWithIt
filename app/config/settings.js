@@ -5,10 +5,10 @@ const settings = {
     apiUrl: "http://192.168.0.103:9000/api",
   },
   staging: {
-    apiUrl: "http://192.168.0.103:9000/api",
+    apiUrl: "http://ec2-13-58-90-218.us-east-2.compute.amazonaws.com:9000/api",
   },
   prod: {
-    apiUrl: "http://192.168.0.103:9000/api",
+    apiUrl: "http://ec2-13-58-90-218.us-east-2.compute.amazonaws.com:9000/api",
   },
 };
 
